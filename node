@@ -1,0 +1,4 @@
+python tools/test.py ${CONFIG_FILE} ${CHECKPOINT_FILE} [--out ${RESULT_FILE}] [--eval ${EVAL_METRICS}] [--show]
+
+
+configs/retinanet_r50_fpn_1x.py     checkpoints/retinanet_r50_fpn_1x_20181125-7b0c2548.pth     --show
